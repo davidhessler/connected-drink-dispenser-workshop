@@ -1,8 +1,10 @@
 /# This is to keep development components clean
 
+# Ensure config / secrets don't get committed
+deploy/config.json
+
 # IDE
 .DS_Store
-
 .vscode/
 .idea/
 
